@@ -21,7 +21,13 @@ author:name a rdf:Property ;
 author:journal a rdf:Property ;
     rdfs:label "journal" ;
     rdfs:domain o:Resource ;
+    vs:term_status "experimental" .  
+
+author:age a rdf:Property ;
+    rdfs:label "age" ;
+    rdfs:domain o:Resource ;
     vs:term_status "experimental" . 
+
 
 news:News a rdfs:Class ;
     rdfs:label "News" ;
